@@ -1,0 +1,18 @@
+{
+    "identity": {
+        "type": "systemAssigned"
+    },
+    "location": "West Europe",
+    "properties": {
+        "blueprintId": "/subscriptions/46fb2520-0f9e-4ef1-85b5-feddabc758cd/providers/Microsoft.Blueprint/blueprints/bpAsCode",
+        "resourceGroups": {},
+        "locks": {
+            "mode": "AllResourcesDoNotDelete"
+        },
+        "parameters": {
+            "webApplicationshouldonlybeaccessibleoverHTTPS_effect": {
+                "value": "Audit"
+            }
+        }
+    }
+}

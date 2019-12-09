@@ -1,0 +1,13 @@
+{
+  "kind": "policyAssignment",
+  "properties": {
+    "displayName": "Web Application should only be accessible over HTTPS",
+    "dependsOn": [],
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a4af4a39-4135-47fb-b175-47fbdf85311d",
+    "parameters": {
+      "effect": {
+        "value": "[parameters('webApplicationshouldonlybeaccessibleoverHTTPS_effect')]"
+      }
+    }
+  }
+}

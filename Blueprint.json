@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "targetScope": "subscription",
+    "parameters": {
+      "webApplicationshouldonlybeaccessibleoverHTTPS_effect": {
+        "type": "string",
+        "metadata": {
+          "displayName": "Effect (Policy: Web Application should only be accessible over HTTPS)"
+        },
+        "defaultValue": "Audit",
+        "allowedValues": [
+          "Audit",
+          "Disabled"
+        ]
+      }
+    },
+    "resourceGroups": {}
+  }
+}
